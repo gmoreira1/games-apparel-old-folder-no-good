@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+body {
+	background:#000;
+	color: #fff;
+	font-size: 16px;
+}
+
+h1, h2 { font-family: 'Mystery Quest', cursive; }
+
+.header {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 2em;
+	}
+	
+
+.content { 
+}
+
+.content:hover {
+	opacity: 0.3;
+}
+
+section {
+	background-color: #000;
+}
+
+.title-bar
+{
+	background-color: #000;
+	margin-bottom: 10px;
+}
+
+.title-bar .menu-icon 
+{
+    margin-right: 0rem; 
+}
+
+.menu-icon::after
+{
+    background: #fff;
+    box-shadow: 0 7px 0 #fff, 0 14px 0 #fff; 
+}
+
+.menu-icon:hover::after 
+{
+    background: #fff;
+    box-shadow: 0 7px 0 #fff, 0 14px 0 #fff; 
+}
+
+#mainNav
+{
+	list-style-type: none;
+	text-align: center;
+}
+
+#mainNav li a
+{
+	background-color: #000;
+	display: block;
+	color: #fff;
+	padding: 5px 0 5px 0;
+}
+
+#mainNav li
+{
+	border-bottom: 1px solid #666666;
+}
+
+#mainNav li:first-child 
+{
+	border-top: 1px solid #666666;
+}
+
+#mainNav li:last-child 
+{
+	margin-bottom: 10px;
+}
+
+#mainNav li a:hover
+{
+	background-color: #666666;
+	color:#fff;
+}
+
+.placehold { color: #6ebd1a; }
+.banana { color: #f8a40a; }
+.apple { color: #930d03; }
+.pear { color: #02c5e5; }
+
+.banana2 { color: #f8a40a; }
+.apple3 { color: #930d03; }
+.pear4 { color: #02c5e5; }
+
+.copy {
+	background-color: #000;
+	font-size: 1.5em;
+	}
+	
+.copy h2 { 
+	text-transform: capitalize; 
+	text-align: left; 
+	padding-left: 20px; 
+	padding-top: 20px; 
+	order:0px; 
+}
+
+.copy p { 
+	color: #fff; 
+	font-size: 0.8em; 
+	line-height: 1.5em; 
+	padding-bottom: 20px; 
+}
+
+footer{
+	display:block;
+	height:100px;
+	text-align:center;
+}
+
+#foot-menu {
+}
+
+#footNav li {
+	display:inline-block;
+	text-decoration: none;
+}
+
+#footNav li a{
+	color: #fff;
+	text-decoration: none;
+	list-style:none;
+}
+
+#footNav li a:hover{
+	color:#fff;
+}
+
+@media screen and (min-width: 64em) {
+
+#mainNav
+{
+	list-style-type: none;
+	text-align: right;
+}
+
+#mainNav li
+{
+	border-bottom: none;
+	display: inline;
+	margin:30px;
+}
+
+#mainNav li a
+{
+	display: inline;
+	padding: 5px 0 5px 0;
+	text-decoration: none;
+	color: #fff;
+}
+
+#mainNav li a:hover
+{
+	color: #fff;
+	padding-bottom: 5px;
+	background-color: #000;
+}
+
+#mainNav li:first-child 
+{
+	border-top: none;
+}
+
+#mainNav li:last-child 
+{
+	margin-bottom: 0;
+}
+
+footer{
+	text-align:right;
+}
+
+}
