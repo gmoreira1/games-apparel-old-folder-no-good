@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+body {
+	background:#000;
+	color: #fff;
+	font-size: 16px;
+	}
+
+.header {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 2em;
+	}
+
+.content:hover {
+	opacity: 0.3;
+}
+
+section {
+	background-color: #000;
+}
+
+.title-bar
+{
+	background-color: #000;
+	margin-bottom: 10px;
+}
+
+.title-bar .menu-icon 
+{
+    margin-right: 0rem; 
+}
+
+.menu-icon::after
+{
+    background: #fff;
+    box-shadow: 0 7px 0 #fff, 0 14px 0 #fff; 
+}
+
+.menu-icon:hover::after 
+{
+    background: #fff;
+    box-shadow: 0 7px 0 #fff, 0 14px 0 #fff; 
+}
+
+#mainNav
+{
+	list-style-type: none;
+	text-align: center;
+}
+
+#mainNav li a
+{
+	background-color: #000;
+	display: block;
+	color: #fff;
+	padding: 5px 0 5px 0;
+}
+
+#mainNav li
+{
+	border-bottom: 1px solid #666666;
+}
+
+#mainNav li:first-child 
+{
+	border-top: 1px solid #666666;
+}
+
+#mainNav li:last-child 
+{
+	margin-bottom: 10px;
+}
+
+#mainNav li a:hover
+{
+	background-color: #666666;
+	color:#fff;
+}
+
+.placehold { color: blue; }
+.team { color: green; }
+.merch { color: red; }
+
+.team2 { color: green; }
+.merch3 { color: red; }
+
+.copy {
+	background-color: #000;
+	font-size: 1.2em;
+	}
+	
+.copy h2 {
+	margin-top:10px;
+	text-align: center;   
+}
+
+.copy p { 
+	color: #fff; 
+}
+
+footer{
+	background-color:#666666;
+	display:block;
+	height:100px;
+	text-align:center;
+}
+
+#foot-menu {
+}
+
+#footNav li {
+	display:inline-block;
+	text-decoration: none;
+	margin-top:20px;
+}
+
+#footNav li a{
+	color: #fff;
+	padding:20px;
+	text-decoration: none;
+	list-style:none;
+}
+
+#footNav li a:hover{
+	color:#fff;
+}
+
+
+
+@media screen and (min-width: 40em) {
+
+#mainNav
+{
+	list-style-type: none;
+	text-align: right;
+}
+
+#mainNav li
+{
+	display: inline;
+	margin:30px;
+}
+
+#mainNav li a
+{
+	display: inline;
+	padding: 5px 0 5px 0;
+	text-decoration: none;
+	color: #fff;
+}
+
+#mainNav li a:hover
+{
+	color: #fff;
+	padding-bottom: 5px;
+	background-color: #000;
+}
+
+#mainNav li:first-child 
+{
+	border-top: none;
+}
+
+#mainNav li:last-child 
+{
+	margin-bottom: 0;
+}
+
+.copy h2 {
+	margin-top:35px;   
+}
+}
+
+@media screen and (min-width: 50em) {
+.copy h2 {
+	margin-top:80px;   
+}
+}
+
+@media screen and (max-width: 64em) {
+
+
+}
